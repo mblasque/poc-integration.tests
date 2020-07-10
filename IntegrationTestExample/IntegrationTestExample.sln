@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestExample.WebApi", "WebApplication1\IntegrationTestExample.WebApi.csproj", "{65A22AF2-C9B0-4015-9B9E-374BE022618E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestExample.IntegrationTests", "IntegrationTestExample.IntegrationTests\IntegrationTestExample.IntegrationTests.csproj", "{F784599A-E819-4713-9F2B-251D6B2E02DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A22AF2-C9B0-4015-9B9E-374BE022618E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A22AF2-C9B0-4015-9B9E-374BE022618E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A22AF2-C9B0-4015-9B9E-374BE022618E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A22AF2-C9B0-4015-9B9E-374BE022618E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F784599A-E819-4713-9F2B-251D6B2E02DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F784599A-E819-4713-9F2B-251D6B2E02DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F784599A-E819-4713-9F2B-251D6B2E02DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F784599A-E819-4713-9F2B-251D6B2E02DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3E157A-C9A2-4C35-89F7-6DAD15AF3724}
+	EndGlobalSection
+EndGlobal
